@@ -1,0 +1,140 @@
+/* Center the loader */
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 0.5s linear infinite;
+    animation: spin 0.5s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Add animation to "page content" */
+  .animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+  }
+  
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
+  
+  #myDiv {
+    display: none;
+    text-align: center;
+  
+  }
+  
+   #CU {
+        width: 1000px;
+        padding: 10px;
+        border: 5px solid Grey;
+        background: white;
+        background-clip: border-box;
+        margin: 0;
+  
+  } 
+  
+    #I {
+        width: 247px;
+        padding: 10px;
+        border: 5px solid Grey;
+        background: white;
+        background-clip: border-box;
+        margin: auto;
+        width: 55%;
+        padding: 10px;
+  }
+  
+    #rcorners_type2 {
+        border-radius: 25px;
+        border: 2px solid #73AD21;
+        padding: 20px; 
+        width: 1000px;
+        height: 125px;
+        background-color: #F3F3F3;
+  }    
+  
+   body {
+        color: black; 
+        background-image: url('bg.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center; 
+        background-size: 1920px 1080px;
+  }
+    p {
+        text-align: center;
+    
+  }
+   
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        border; 1px solid #e7e7e7;
+        background-color: #F3F3F3;
+  }
+    p {
+       text-align: center;
+       font-family: Garamond, serif;
+       font-size: 18px;
+  } 
+    li {
+        float: left;
+  }
+  
+    li a {
+        display: block;
+        color: #666;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+  }
+  
+    li a:hover:not(.active) {
+        background-color: #ddd;
+  
+  }
+    .active {
+        background-color: #4CAF50;
+        color: white
+  
+  }
+    .center {
+      margin: auto;
+      width: 55%;
+      padding: 10px;
+  }
+    .nav{
+      width: 100%
+      backround:#000033;
+      hight:100px;
+      opacity:1
