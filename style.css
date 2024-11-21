@@ -62,6 +62,7 @@
   } 
   
     #I {
+        border-radius: 25px;
         width: 247px;
         padding: 10px;
         border: 5px solid Grey;
@@ -76,8 +77,6 @@
         border-radius: 25px;
         border: 2px solid #73AD21;
         padding: 20px; 
-        width: 1000px;
-        height: 125px;
         background-color: #F3F3F3;
   }    
   
