@@ -149,3 +149,20 @@
   justify-content: center;
   color: #fff;
 }
+
+.container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.me_image {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 300px;
+  height: auto;
+}
