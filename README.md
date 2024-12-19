@@ -1,3 +1,3 @@
 # portfolio-web
 
-cd into `port-react` and `npm start`
+cd into `port-react` and run `npm start`
