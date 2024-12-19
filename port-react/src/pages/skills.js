@@ -20,12 +20,15 @@ function Skills() {
                 <div class="box-main">
                     <div class="secondHalf">
                         <h1 class="text-big" id="program">
-                          {/* add something */}
+                          Skills
                         </h1>
-                        <p class="text-small">
-                            {/* sample text */}
-                        </p>
-                    </div>
+                        <ol type="1">
+                            <li>Software Engineering and Programming: C++, Python, JavaScript</li>
+                            <li>Automotive Technician: Bodywork, Painting, Mechanical, Engine, and transmission work</li>
+                            <li>Hardware Build and Repair: Building custom PC’s and troubleshoot any problems</li>
+                            <li>Photography </li>
+                        </ol>
+                        </div>
                 </div>
             </section>
             <footer className="footer">

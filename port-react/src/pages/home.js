@@ -17,6 +17,7 @@ function Home() {
                         pc building and troubleshooting, and tinkering with things. I want to pursue full-stack development or create games.
 
                         </p>
+                        
                     </div>
                 </div>
             </section>

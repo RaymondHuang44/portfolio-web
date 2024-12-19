@@ -20,6 +20,11 @@
 
 .footer {
   background-color: #000;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
 }
 
 .nav-list {
@@ -63,15 +68,8 @@
   text-align: right;
 }
 
-#search {
-  padding: 5px;
-  font-size: 17px;
-  border: 2px solid rgb(0, 0, 0);
-  border-radius: 9px;
-}
-
 .box-main {
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
   color: black;
@@ -109,6 +107,8 @@
 
 .text-small {
   font-size: 18px;
+  text-align: center;
+
 }
 
 .btn {
@@ -129,7 +129,7 @@
   height: 200px;
   display: flex;
   align-items: center;
-  background-color: rgb(250, 250, 250);
+  background-color: #fff;
   justify-content: space-between;
 }
 
@@ -152,7 +152,7 @@
 
 .container {
   position: relative;
-  height: 100vh;
+  height: 50vh;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -165,4 +165,79 @@
   transform: translateY(-50%);
   max-width: 300px;
   height: auto;
+}
+
+.button_linkedin {
+  background-color: #0077b5;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button_linkedin:hover {
+  background-color: #005582;
+}
+
+.button_github {
+  background-color: #2dba4e;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button_github:hover {
+  background-color: #228e3b;
+}
+
+.button_resume {
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button_resume:hover {
+  background-color: #8e2222;
+}
+
+table {
+  width: 100%;
+  border: 1px solid;
+}
+
+.button_instagram {
+  background-color: #515BD4;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button_instagram:hover {
+  background-color: #383f92;
+}
+
+.button_youtube {
+  background-color: #FF0000; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button_youtube:hover {
+  background-color: #851919;
 }

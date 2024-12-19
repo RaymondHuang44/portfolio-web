@@ -12,10 +12,16 @@ const Contact = () => {
                             Personal Email: raymondhuang44@gmail.com
                             <br></br>
                             Campus Email: rhuang44@csu.fullerton.edu
-                        </h1>
+                        </h1>  
+                        <br></br>          
+                        <a class="button_linkedin" href="https://www.linkedin.com/in/raymond-huang-5b05a1308/" target="_blank">LinkedIn</a>
+                        <br></br>  
+                        <br></br>  
+                        <a class="button_github" href="https://github.com/RaymondHuang44" target="_blank">GitHub</a>
                     </div>
                 </div>
             </section>
+
         
             <footer className="footer">
                 <p className="text-footer">
