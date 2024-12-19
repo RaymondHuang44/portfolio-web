@@ -13,6 +13,7 @@ const Navbar = () => {
                     <NavLink to="/contact" activeStyle> Contact Me </NavLink>
                 </NavMenu>
             </Nav>
+
         </>
     );
 };

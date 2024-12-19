@@ -29,7 +29,7 @@ const About = () => {
                                     <td>August 2020 - Present</td>
                                     </tr>
                             </table>
-                            <br></br>
+                            
                         <h2>Skills</h2>
                         <ol type="1">
                             <li>Software Engineering and Programming: C++, Python, JavaScript</li>
